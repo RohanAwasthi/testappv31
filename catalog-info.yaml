@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TestAppV3"
+  description: "TestAppV3"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/testappv31
+      title: "TestAppV3"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/TestAppV3'
+    jenkins.io/job-full-name: 'apache-azure-app/TestAppV3'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/testappv31
+    backstage.io/linguist: https://github.com/RohanAwasthi/testappv31
+    azure.com/tag-selector: 'pid/TestAppV3'
+spec:
+  type: service
+  lifecycle: development
+  owner: user:default/adithya.bhairanje
